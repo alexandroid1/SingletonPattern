@@ -1,5 +1,7 @@
 package com.globallogic;
 
+import com.globallogic.implementations.EagerInitializedSingleton;
+
 public class SingletonPatternDemo {
     public static void main(String[] args) {
 
@@ -8,7 +10,7 @@ public class SingletonPatternDemo {
         //SingleObject object = new SingleObject();
 
         //Get the only object available
-        SingleObject object = SingleObject.getInstance();
+        EagerInitializedSingleton object = EagerInitializedSingleton.getInstance();
 
         //show the message
         object.showMessage();
