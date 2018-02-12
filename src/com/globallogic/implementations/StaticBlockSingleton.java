@@ -18,4 +18,8 @@ public class StaticBlockSingleton {
     public static StaticBlockSingleton getInstance(){
         return instance;
     }
+
+    public void showMessage(){
+        System.out.println("Hello from StaticBlockSingleton!");
+    }
 }
