@@ -17,7 +17,7 @@ public class SingletonPatternDemo {
         LazyInitializedSingleton object2 = LazyInitializedSingleton.getInstance();
         object2.showMessage();
 
-        ThreadSafeSingleton object3 = ThreadSafeSingleton.getInstance();
+        ThreadSafeSingleton object3 = ThreadSafeSingleton.getInstanceUsingDoubleLocking();
         object3.showMessage();
     }
 }
