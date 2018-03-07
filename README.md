@@ -7,3 +7,5 @@ https://www.journaldev.com/1377/java-singleton-design-pattern-best-practices-exa
 
 also see video "Singleton Pattern – Design Patterns (ep 6)"
 https://www.youtube.com/watch?v=hUE_j6q0LTQ
+
+also see my wonderful video "Паттерн Синглтон" - https://youtu.be/d3BA4K4nCxk
